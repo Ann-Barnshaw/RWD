@@ -220,7 +220,71 @@ input#email-container3::placeholder {
     transition: 1s;
     font-weight: 700;
 }
-footer {
-    width: 375px;
+.container-4 {
     margin: 0 auto;
+    width: 375px;
+    text-align: left;
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+}
+.company-logo {
+    width: 60%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-left: 8%;
+}
+.tel-receiver-img {
+    width: 10%;
+}
+.email-icon {
+    width: 10%;
+}
+.telephone-contact {
+    width: 80%;
+    margin-left: 8%;
+}
+.email-contact {
+    width: 80%;
+    margin-left: 8%;
+}
+.container-4-ul1 {
+    width: 80%;
+    margin: 10% 0%;
+    margin-left: 8%;
+}
+.container-4-ul1 li {
+    list-style: none;
+    margin: 8% 0%;
+    line-height: 1.6;
+}
+.container-4-ul2 {
+    width: 80%;
+    margin: 10% 0%;
+    margin-left: 8%;
+}
+.container-4-ul2 li {
+    list-style: none;
+    margin: 8% 0%;
+    line-height: 1.6;
+}
+.social-media-icons {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 8px;
+    width: 80%;    
+}
+.facebook {
+    width: 6%;
+}
+.twitter{
+    width: 7%;
+}
+.instagram {
+    width: 9%;
+}
+.insta-icon,
+.twitter-icon,
+.facebook-icon {
+    width: 100%;
 }
