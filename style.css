@@ -116,7 +116,7 @@ input.email-request::placeholder {
 }
 .subcontainer-2 {
     background-color: hsl(240, 75%, 98%);
-    padding-bottom: 10%;
+    padding-bottom: 20%;
 }
 .subcontainer-2p {
     width: 90%;
@@ -170,4 +170,57 @@ input.email-request::placeholder {
 }
 .profile-details {
     display: flex;
+}
+.container-3 {
+    text-align: center;
+    width: 100%;
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+}
+.container-3-h3 {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 18%;
+    font-weight: 400;
+}
+.container-3-p {
+    width: 85%;
+    margin: 10% auto;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(235, 231, 231);
+}
+#email-container3 {
+    width: 75%;
+    padding: 4%;
+}
+input#email-container3::placeholder {
+    color: hsl(0, 0%, 75%);
+}
+.container-3-btn {
+    width: 84%;
+    padding: 4%;
+    margin-top: 4%;
+    margin-bottom: 20%;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    border: 1px solid hsl(224, 93%, 58%);
+}
+.container-3-btn a {
+    text-decoration: none;
+    color: white;
+}
+.container-3-btn:hover {
+    cursor: pointer;
+    transition: 1s;
+    background-color: hsl(224, 69%, 44%);
+}
+.container-3-btn a:hover {
+    cursor: pointer;
+    transition: 1s;
+    font-weight: 700;
+}
+footer {
+    width: 375px;
+    margin: 0 auto;
 }
