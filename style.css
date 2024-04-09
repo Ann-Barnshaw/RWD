@@ -2,3 +2,386 @@
     padding: 0;
     margin: 0;
 }
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.parent-container {
+    width: 375px;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 80px;
+    border: 1px solid transparent;
+    box-shadow: 2px 2px 5px rgba(0.5, 0, 0, 0.5);
+}
+.primary-nav {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    padding: 20px 0px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400, 700;
+    font-style: normal;
+}
+.primary-nav-ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.primary-nav-ul li {
+    font-weight: 600;
+}
+.logo-img {
+    width: 20%;
+}
+.container-1 {
+    text-align: center;
+    width: 100%;
+}
+.container-1-img {
+    width: 80%;
+    margin: 10% 0%;
+}
+.container-1-h2 {
+    font-size: 1.3rem;
+    margin: 0 auto;
+    line-height: 1.6;
+    width: 80%;
+}
+.container-1-p {
+    font-size: 0.9rem;
+    margin: 0 auto;
+    line-height: 1.2;
+    width: 80%;
+    padding: 6% 0%;
+}
+.email-request {
+    width: 80%;
+    padding: 3% 0%;
+    margin: 4% 0%;
+    border: 1px solid rgb(117, 115, 115);
+    border-radius: 3px;
+}
+input.email-request::placeholder {
+    padding-left: 20px;
+    color: hsl(0, 0%, 75%);
+}
+.container-1-btn {
+    margin-top: 6%;
+    margin-bottom: 10%;
+    width: 80%;
+    padding: 3% 0%;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border: 1px solid hsl(224, 93%, 58%);
+    border-radius: 4px;
+}
+.container-1-btn a {
+    color: white;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}
+.container-1-btn:hover {
+    transition: 1s;
+    cursor: pointer;
+    background-color: hsl(224, 69%, 44%);
+}
+.container-1-btn a:hover {
+    transition: 1s;
+    cursor: pointer;
+    font-weight: 500;
+}
+.container-2 {
+    text-align: center;
+    width: 100%;
+}
+.container-2-img1 {
+    width: 100%;
+}
+.container-2-img2 {
+    width: 80%;  
+}
+.container-2-h3 {
+    margin: 10% 0%;
+}
+.curve {
+    line-height: 0;
+}
+.subcontainer-2 {
+    background-color: hsl(240, 75%, 98%);
+    padding-bottom: 20%;
+}
+.subcontainer-2p {
+    width: 90%;
+    font-size: 0.97rem;
+    text-align: left;
+    margin-left: 4%;
+    color: hsl(0, 1%, 43%);
+}
+.subcontainer-2p-arrow {
+    margin: 6% auto;
+    text-align: center;
+    border-bottom: 1px solid;
+    width: 50%;
+    padding-bottom: 5px;
+    color: hsl(170, 45%, 43%);
+}
+.sub-subcontainer2 {
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 6%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.profile-photo {
+    border-radius: 50%;
+    width: 70%;
+}
+.sub-subcontainer2p {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: hsl(0, 1%, 43%);
+}
+.avartar-name {
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+.avartar-role {
+    font-size: 0.54rem;
+    font-weight: 400;
+    padding-top: 3%;
+}
+.profile-image {
+    width: 20%;
+}
+.profile-info {
+    width: 45%;
+    padding-top: 2%;
+}
+.profile-details {
+    display: flex;
+}
+.container-3 {
+    text-align: center;
+    width: 100%;
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+}
+.container-3-h3 {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 18%;
+    font-weight: 400;
+}
+.container-3-p {
+    width: 85%;
+    margin: 10% auto;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(235, 231, 231);
+}
+#email-container3 {
+    width: 75%;
+    padding: 4%;
+}
+input#email-container3::placeholder {
+    color: hsl(0, 0%, 75%);
+}
+.container-3-btn {
+    width: 84%;
+    padding: 4%;
+    margin-top: 4%;
+    margin-bottom: 20%;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    border: 1px solid hsl(224, 93%, 58%);
+}
+.container-3-btn a {
+    text-decoration: none;
+    color: white;
+}
+.container-3-btn:hover {
+    cursor: pointer;
+    transition: 1s;
+    background-color: hsl(224, 69%, 44%);
+}
+.container-3-btn a:hover {
+    cursor: pointer;
+    transition: 1s;
+    font-weight: 700;
+}
+.container-4 {
+    margin: 0 auto;
+    width: 375px;
+    text-align: left;
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+}
+.company-logo {
+    width: 60%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-left: 8%;
+}
+.tel-receiver-img {
+    width: 10%;
+}
+.email-icon {
+    width: 10%;
+}
+.telephone-contact {
+    width: 80%;
+    margin-left: 8%;
+}
+.email-contact {
+    width: 80%;
+    margin-left: 8%;
+}
+.container-4-ul1 {
+    width: 80%;
+    margin: 10% 0%;
+    margin-left: 8%;
+}
+.container-4-ul1 li {
+    list-style: none;
+    margin: 8% 0%;
+    line-height: 1.6;
+}
+.container-4-ul2 {
+    width: 80%;
+    margin: 10% 0%;
+    margin-left: 8%;
+}
+.container-4-ul2 li {
+    list-style: none;
+    margin: 8% 0%;
+    line-height: 1.6;
+}
+.social-media-icons {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 8px;
+    width: 80%;    
+}
+.facebook {
+    width: 6%;
+}
+.twitter{
+    width: 7%;
+}
+.instagram {
+    width: 9%;
+}
+.insta-icon,
+.twitter-icon,
+.facebook-icon {
+    width: 100%;
+}
+@media screen  and (max-width: 1440px){
+    .body {
+        font-size: none;
+    }
+    .parent-container {
+        width: 1440px;
+        border: none;
+    }
+    .primary-nav {
+        width: 100%;
+        height: 30px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        font-family: "Raleway", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400, 700;
+        font-style: normal;
+    }
+    .logo-img {
+        width: 8%;
+        margin-left: 2%;
+    }
+    .primary-nav-ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        gap: 15px;
+        margin-right: 2%;
+    }
+    .container-1 {
+        text-align: center;
+        width: 100%;
+        display: flex;
+    }
+    .container-1-img {
+        width: 80%;
+        margin: 0;
+    }
+    .container-1a {
+        order: 2;
+    }
+    .container-1b {
+        order: 1;
+    }
+    .container-1-h2 {
+        font-size: 21px;
+        margin-top: 10%;
+        margin-bottom: 2%;
+        line-height: 1.2;
+        width: 50%;
+        text-align: left;
+    }
+    .container-1p {
+        margin: 0 auto;
+        width: 50%;
+        padding: 0;
+        text-align: left;
+    }
+    .container-1p p {
+        font-size: 16px;
+        line-height: 1.1;
+    }
+    .container-1ba {
+        display: flex;
+        width: 50%;
+        margin: 0 auto;
+        gap: 10px;
+    }
+    .email-request {
+        width: 60%;
+        padding: 0;
+        margin: 4% 0%;
+        border: 1px solid rgb(117, 115, 115);
+        border-radius: 3px;
+        padding: 1% 0%;
+    }
+    .container-1-btn {
+        margin: 4% 0%;
+        width: 30%;
+        padding: 0;
+        background-color: hsl(224, 93%, 58%);
+        color: white;
+        border: 1px solid hsl(224, 93%, 58%);
+        border-radius: 4px;
+        padding: 1% 0%;
+    }
+    .container-1-btn a {
+        color: white;
+        text-decoration: none;
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.8rem;
+    }
+}
